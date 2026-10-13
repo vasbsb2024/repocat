@@ -1,0 +1,24 @@
+{
+  "name": "repocat-cli",
+  "version": "1.0.0",
+  "description": "Smart repository automation and metrics tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "github",
+    "automation",
+    "webhooks",
+    "metrics",
+    "rcat"
+  ],
+  "author": "RepoCat Team",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.15",
+    "@solana/web3.js": "^1.99.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0"
+  }
+}
